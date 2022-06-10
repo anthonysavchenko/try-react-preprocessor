@@ -1,0 +1,23 @@
+{
+  "name": "try-react-preprocessor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "like_button.js",
+  "scripts": {
+    "start": "npx terser -c -m -o like_button.min.js -- like_button.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonysavchenko/try-react-preprocessor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonysavchenko/try-react-preprocessor/issues"
+  },
+  "homepage": "https://github.com/anthonysavchenko/try-react-preprocessor#readme",
+  "dependencies": {
+    "terser": "^5.14.0"
+  }
+}
